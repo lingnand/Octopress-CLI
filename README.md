@@ -22,7 +22,9 @@ You should also create two directories `_drafts` and `_queue` under `source` to 
 
 ## Usage
 
-    octopress rake <rake command>|update|help
+    octopress rake <rake command>
+    octopress update
+    octopress help
 
 * `rake <rake command>`: this is identical to `cd` into the octopress repository and perform `rake <rake command>`
 * `update`: perform the [automatic udpate](#automatic-update)
